@@ -10,7 +10,7 @@ function App() {
     <div className="container">
       {
         // isLoggedIn ? <h1>Hello</h1> : <Login />
-        currentHour > 12 ? <h1>Why are you still working?</h1> : null
+        currentHour > 12 && <h1>Why are you still working?</h1>
       }
     </div>
   )
